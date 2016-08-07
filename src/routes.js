@@ -6,6 +6,6 @@ import first from 'containers/first';
 export function createRoutes() {
   return {
     path: '/',
-    component: first,
+    indexRoute: { components: first },
   };
 }
