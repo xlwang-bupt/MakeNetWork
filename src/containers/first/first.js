@@ -4,8 +4,8 @@ import style from './style.css';
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import left from './components/left/left';
-import right from './components/right/right';
+import Left from './components/Left';
+import Right from './components/Right';
 
 import * as actions from './actions';
 
@@ -42,11 +42,11 @@ class first extends Component {
       <div>
         <div className={style.left}>
           <p className={style.leftTitle}> 参数设置</p>
-          <left />
+          <Left />
         </div>
         <div className={style.right}>
           <p className={style.rightTitle}> 动画展示区</p>
-          <right />
+          <Right />
         </div>
       </div>
       );

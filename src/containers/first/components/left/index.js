@@ -1,3 +1,3 @@
-import left from './left';
+import Left from './Left';
 
-export default left;
+export default Left;

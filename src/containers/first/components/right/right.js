@@ -5,7 +5,7 @@ import classnames from 'classnames';
 import React, { Component, PropTypes } from 'react';
 
 
-class right extends Component {
+class Right extends Component {
   static propTypes = {
     style: PropTypes.string,
     className: PropTypes.string,
@@ -34,4 +34,4 @@ class right extends Component {
   }
 }
 
-export default right;
+export default Right;

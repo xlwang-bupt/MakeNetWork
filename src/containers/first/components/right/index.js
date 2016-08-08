@@ -1,3 +1,3 @@
-import right from './right';
+import right from './Right';
 
 export default right;
