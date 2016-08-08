@@ -28,7 +28,9 @@ class Right extends Component {
         style={this.props.style}
         className={classnames(...className.split(), style.right)}
       >
-        right
+        <p className={style.rightTitle}> 动画展示区</p>
+        <div className={style.rightShow}>
+        </div>
       </div>
     );
   }

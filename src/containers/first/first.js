@@ -1,5 +1,4 @@
 
-import style from './style.css';
 
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
@@ -40,14 +39,8 @@ class first extends Component {
   render() {
     return (
       <div>
-        <div className={style.left}>
-          <p className={style.leftTitle}> 参数设置</p>
-          <Left />
-        </div>
-        <div className={style.right}>
-          <p className={style.rightTitle}> 动画展示区</p>
-          <Right />
-        </div>
+        <Left />
+        <Right />
       </div>
       );
   }
